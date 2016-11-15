@@ -14,7 +14,7 @@ public class Crawler {
 		try {
 
 			// need http protocol
-			doc = Jsoup.connect("https://www.flipkart.com").get();
+			doc = Jsoup.connect("https://www.some-website-name.com").get();
 
 			// get page title
 			String title = doc.title();
